@@ -1,0 +1,54 @@
+.tart-component {
+
+  margin-bottom: 100px;
+
+  .indicator {
+    height: 40px;
+    margin-bottom: 20px;
+  }
+
+  .blueberry {
+    color: #4051B5;
+  }
+
+  .strawberry {
+    color: #FF80AB;
+  }
+
+  .root {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    overflow: hidden;
+  }
+
+  .grid-list {
+    width: 500;
+    height: 450;
+  }
+
+  .faces-row {
+    display: flex;
+    justify-content: center;
+    overflow: auto;
+  }
+  .avatar {
+    margin: 10px;
+    width: 60px;
+    height: 60px;
+  }
+
+  .time-stamp {
+    background: white;
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    color: black;
+    width: 100%;
+    text-align: center;
+    display: block;
+    z-index: 2000;
+    right: 0;
+  }
+
+}

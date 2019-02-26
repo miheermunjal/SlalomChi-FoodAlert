@@ -1,0 +1,44 @@
+html {
+    margin: 0;
+    height: 100%;
+}
+
+body {
+    margin: 0;
+    height: 100%;
+    width: 100%;
+    text-align: center;
+}
+
+h1 {
+    font-size: 40px;
+    display: inline-block;
+    margin: 0;
+    vertical-align: top;
+    padding-top: 15px;
+}
+
+.logo-img {
+    height: 60px;
+    margin: 10px;
+    display: inline-block;
+}
+
+.preview {
+    margin-top: 10px;
+    width: 90%;
+    max-width: 500px;
+    cursor: pointer;
+}
+
+.results {
+    position: relative;
+}
+
+.loader {
+    margin: auto;
+    right: 0;
+    left: 0;
+    position: absolute;
+    top: 40px;
+}

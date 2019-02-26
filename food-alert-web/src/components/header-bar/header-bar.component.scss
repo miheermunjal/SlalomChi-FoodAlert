@@ -1,0 +1,16 @@
+.header-bar-component {
+  margin-bottom: 24px;
+
+  h2,
+  button {
+    display: flex;
+  }
+
+  h2 {
+    flex: 1;
+  }
+
+  button {
+    flex: 0;
+  }
+}
